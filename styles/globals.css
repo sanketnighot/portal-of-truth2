@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  @apply transition;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'TheBombSound';
+  src: url('/TheBombSound.ttf');
+}
+
+.font-brand {
+  font-family: 'TheBombSound', 'Poppins', 'Courier New', sans-serif, Courier, monospace;
+}
+
+body {
+  @apply bg-brand-blue-dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
